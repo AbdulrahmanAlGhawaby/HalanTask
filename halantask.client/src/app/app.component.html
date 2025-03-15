@@ -1,0 +1,10 @@
+<mat-toolbar>
+  <span>Ticket Management System</span>
+</mat-toolbar>
+<mat-tab-group (selectedTabChange)="onTabChange($event)" [selectedIndex]="selectedTab">
+  <mat-tab label="View Tickets"></mat-tab>
+  <mat-tab label="Create Ticket"></mat-tab>
+</mat-tab-group>
+
+<!-- Display the routed component here -->
+<router-outlet></router-outlet>

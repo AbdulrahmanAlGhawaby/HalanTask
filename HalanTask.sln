@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HalanTask.Server", "HalanTask.Server\HalanTask.Server.csproj", "{524371A8-18ED-4EE4-9DBC-F91805D3D78A}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "halantask.client", "halantask.client\halantask.client.esproj", "{2DC06C8C-E1E5-496F-900A-2C95E86D7EC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HalanTask.Domain", "HalanTask.Domain\HalanTask.Domain.csproj", "{8708C6AE-25E1-4D50-AE04-998BDE61EE49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HalanTask.Application", "HalanTask.Application\HalanTask.Application.csproj", "{FBC4F7CA-4CC8-407E-A2C7-B71730C3C406}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HalanTask.Infrastructure", "HalanTask.Infrastructure\HalanTask.Infrastructure.csproj", "{2C789803-068A-4B6D-8776-BCFA2639296E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalanTask.Tests", "HalanTask.Tests\HalanTask.Tests.csproj", "{01F779BB-62C1-4C4D-A2A2-DEE5243087AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{524371A8-18ED-4EE4-9DBC-F91805D3D78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524371A8-18ED-4EE4-9DBC-F91805D3D78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524371A8-18ED-4EE4-9DBC-F91805D3D78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{524371A8-18ED-4EE4-9DBC-F91805D3D78A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC06C8C-E1E5-496F-900A-2C95E86D7EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC06C8C-E1E5-496F-900A-2C95E86D7EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC06C8C-E1E5-496F-900A-2C95E86D7EC1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2DC06C8C-E1E5-496F-900A-2C95E86D7EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC06C8C-E1E5-496F-900A-2C95E86D7EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC06C8C-E1E5-496F-900A-2C95E86D7EC1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8708C6AE-25E1-4D50-AE04-998BDE61EE49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8708C6AE-25E1-4D50-AE04-998BDE61EE49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8708C6AE-25E1-4D50-AE04-998BDE61EE49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8708C6AE-25E1-4D50-AE04-998BDE61EE49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC4F7CA-4CC8-407E-A2C7-B71730C3C406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC4F7CA-4CC8-407E-A2C7-B71730C3C406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC4F7CA-4CC8-407E-A2C7-B71730C3C406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC4F7CA-4CC8-407E-A2C7-B71730C3C406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C789803-068A-4B6D-8776-BCFA2639296E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C789803-068A-4B6D-8776-BCFA2639296E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C789803-068A-4B6D-8776-BCFA2639296E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C789803-068A-4B6D-8776-BCFA2639296E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F779BB-62C1-4C4D-A2A2-DEE5243087AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F779BB-62C1-4C4D-A2A2-DEE5243087AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F779BB-62C1-4C4D-A2A2-DEE5243087AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F779BB-62C1-4C4D-A2A2-DEE5243087AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEB4A239-6F6B-45B7-AA3E-1C9BD2743FB6}
+	EndGlobalSection
+EndGlobal

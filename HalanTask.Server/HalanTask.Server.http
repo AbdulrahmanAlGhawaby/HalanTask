@@ -1,0 +1,6 @@
+@HalanTask.Server_HostAddress = http://localhost:5042
+
+GET {{HalanTask.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
